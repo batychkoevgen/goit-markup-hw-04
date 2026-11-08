@@ -2,6 +2,11 @@
   background-color: #2e2f42;
   padding: 100px 0;
 }
+.footer-top {
+  display: flex;
+  align-items: center;
+}
+
 .logo-footer {
   display: block;
   font-family: 'Raleway', sans-serif;
@@ -23,4 +28,24 @@
 
 .footer-left {
   max-width: 264px;
+}
+
+.footer-icon {
+  color: #f4f4fd;
+}
+
+.footer-caption {
+  margin-bottom: 16px;
+
+  color: #fff;
+}
+
+.footer-wrapper {
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+.footer .socials-link:hover,
+.footer .socials-link:focus {
+  background-color: #31d0aa;
 }

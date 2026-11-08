@@ -35,4 +35,17 @@
 }
 .team-card {
   padding: 32px 16px;
+  box-shadow:
+    0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.team-icon {
+  color: #f4f4fd;
+}
+
+.team-section .socials-link:hover,
+.team-section .socials-link:focus {
+  background-color: #404bbf;
 }

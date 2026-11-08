@@ -36,9 +36,10 @@
   letter-spacing: 0.04em;
   color: #fff;
   text-align: center;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 
-    transition: 250px; ease-out;
-    transition-property: color;
+  transition: 250ms ease-out;
+  transition-property: background-color;
 }
 
 .hero-btn:hover,

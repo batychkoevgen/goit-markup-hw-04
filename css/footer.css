@@ -2,10 +2,6 @@
   background-color: #2e2f42;
   padding: 100px 0;
 }
-.footer-top {
-  display: flex;
-  align-items: flex-start;
-}
 
 .logo-footer {
   display: block;
@@ -52,4 +48,9 @@
 .footer .socials-link:hover,
 .footer .socials-link:focus {
   background-color: #31d0aa;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
 }
